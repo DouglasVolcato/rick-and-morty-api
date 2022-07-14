@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(62, 62, 62);
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 30vw;
+    text-align: center;
+    /* padding: 10vw; */
+    background-image: url(./images/background.jpg);
+    background-size:cover;
+    border: solid 2vw rgba(42, 82, 99, 0.731);
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#logo,a{
+    border: none;
+    border-radius: 40%;
+    margin: auto;
+    width: 20vw;
+    height: 18vw;
+    border: solid 2px rgba(50, 201, 123, 0.721)
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 20vw;
+    width: 30vw;
+    justify-content: space-evenly;
+    border-radius: 20%;
+}
+h1{
+    font-size: 3vw;
+    color: rgb(140, 255, 0);
+    padding: 1.5%;
+    margin: 0 auto;
+}
+#completeList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#imputPesquisar{
+    font-size: 1.5vw;
+}
+#buttonPesquisar{
+    font-size: 1.5vw;
+    background-color: rgb(214, 230, 37);
+    padding: 3px;
+}
+#buttonPesquisar:hover{
+    background-color: blue;
+    color: yellow;
+}
+.card{
+    border: solid 6px rgb(9, 5, 49);
+    margin: 2vw 0 2vw 0;
+}
+.card:hover{
+    border-color: yellow;
+}
+img, .details {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border: solid 2px rgb(43, 156, 226);
+}
+.details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f9fe6e;
+}
+.information{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 2vw;
+    background-color: #f9fe6e;
+    margin-top: 2vw;
+    border-top: solid 1.5vw #b4b854;
+    padding: 1.5vw;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+span{
+    border: solid 2px black;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+span:hover{
+    background-color: yellow;
+    color: black;
+}
+#pages{
+    font-size: 30px;
+    color: rgb(0, 17, 114);
+}
